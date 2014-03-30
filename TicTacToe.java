@@ -38,10 +38,10 @@ public class TicTacToe{
 	     }else{
 		imprimirCuadricula(tictactoe);
 	     do{
-		a = leerNumero("rengl\363n");
+		a = leerNumero("rengl\242n");
 		b = leerNumero("columna");
 			if(tictactoe[a][b] != ' ');
-				System.out.println("La casilla seleccionada ya est\341 ocupada.\n");
+				System.out.println("La casilla seleccionada ya est\240 ocupada.\n");
 	}	while(tictactoe[a][b] != ' ');
 		tictactoe[a][b] = 'X';
     }
@@ -74,11 +74,11 @@ System.out.println();
       public static void imprimirCuadricula(char[] [] tictactoe){
 int i, j;
 System.out.println("\n\n");
-System.out.println("Gato y rat\363n (MX) By Klozz Jesus");
+System.out.println("Gato y rat\242n (MX) By Klozz Jesus\nFor Windows");
 System.out.println("\n\n");
-System.out.println("        \311\315\315\315\313\315\315\313\315\315\315\272");
-System.out.println("        \272 1  \272 2 \272 3\272");
-System.out.println("        \310\315\315\315\312\315\315\315\312\315\315\315\274");
+System.out.println("       \311\315\315\315\313\315\315\313\315\315\315\272");
+System.out.println("       \272 1  \272 2 \272 3\272");
+System.out.println("       \310\315\315\315\312\315\315\315\312\315\315\315\274");
 System.out.println();
 System.out.println("\311\315\273   \311\315\315\315\313\315\315\315\313\315\315\315\313\315\315\315\273");
 		for (i=0;i<tictactoe.length; i++){
@@ -86,7 +86,7 @@ System.out.println("\311\315\273   \311\315\315\315\313\315\315\315\313\315\315\
 		System.out.println("\314\315\271   \314\315\315\315\316\315\315\315\316\315\315\315\316\315\315\315\271");
 			System.out.println("\272" + (i+1) + "\272  ");
 		for (j=0; j<tictactoe[i].length; j++)
-			System.out.print("  " + tictactoe[i][j] + " \272");		
+			System.out.print(" " + tictactoe[i][j] + " \272");		
 			System.out.println();
 }
 	System.out.println("\310\315\274  \310\315\315\315\312\315\315\315\312\315\315\315\312\315\315\315\274\n");
@@ -95,7 +95,7 @@ System.out.println("\311\315\273   \311\315\315\315\313\315\315\315\313\315\315\
 static int leerNumero(String variable) {
 int numero;
 	do{
-		System.out.print("Seleccione el n\372mero de " + variable + ": ");
+		System.out.print("Seleccione el n\243mero de " + variable + ": ");
 		numero = in.nextInt();
 	if (numero != 1 && numero != 2 && numero != 3)
 		System.out.println("La casilla seleccionada esta fuera de rango.\n");
