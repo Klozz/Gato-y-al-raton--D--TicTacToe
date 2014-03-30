@@ -74,7 +74,7 @@ System.out.println();
       public static void imprimirCuadricula(char[] [] tictactoe){
 int i, j;
 System.out.println("\n\n");
-System.out.println("Gato y rat\363n (MX) By Klozz Jesus");
+System.out.println("Gato y rat\363n (MX) By Klozz Jesus\nFor Linux");
 System.out.println("\n\n");
 System.out.println("        \311\315\315\315\313\315\315\313\315\315\315\272");
 System.out.println("        \272 1  \272 2 \272 3\272");
