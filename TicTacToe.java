@@ -76,20 +76,20 @@ int i, j;
 System.out.println("\n\n");
 System.out.println("Gato y rat\242n (MX) By Klozz Jesus\nFor Windows");
 System.out.println("\n\n");
-System.out.println("       \311\315\315\315\313\315\315\313\315\315\315\272");
-System.out.println("       \272 1  \272 2 \272 3\272");
+System.out.println("       \311\315\315\315\313\315\315\313\315\315\315\315\271");
+System.out.println("       \272 1 \272 2 \272 3 \272");
 System.out.println("       \310\315\315\315\312\315\315\315\312\315\315\315\274");
 System.out.println();
 System.out.println("\311\315\273   \311\315\315\315\313\315\315\315\313\315\315\315\313\315\315\315\273");
 		for (i=0;i<tictactoe.length; i++){
 			if (i !=0)
-		System.out.println("\314\315\271   \314\315\315\315\316\315\315\315\316\315\315\315\316\315\315\315\271");
-			System.out.println("\272" + (i+1) + "\272  ");
+		System.out.println("\314\315\271   \314\315\315\315\316\315\315\315\315\316\315\315\315\271");
+			System.out.println("\272" + (i+1) + "\272\n\315  ");
 		for (j=0; j<tictactoe[i].length; j++)
-			System.out.print(" " + tictactoe[i][j] + " \272");		
+			System.out.print(" \272" + tictactoe[i][j] + " \272");		
 			System.out.println();
 }
-	System.out.println("\310\315\274  \310\315\315\315\312\315\315\315\312\315\315\315\312\315\315\315\274\n");
+	System.out.println("\310\315\274  \310\315\315\315\312\315\315\315\312\315\315\315\274\n");
 	}
 	
 static int leerNumero(String variable) {
