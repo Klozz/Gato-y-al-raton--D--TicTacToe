@@ -1,8 +1,17 @@
 /*Juego de 3 en raya :D
 Autor: Klozz Jesus
 Fecha: 29 marzo 2014
-v1= first test
 
+(C) Klozz jesus 
+
+Licence you can use this code for Educative and don't delete Copyright.
+You can modify this and publish but need quote a first developer
+YES Me Klozz.
+
+
+Changes:
+v1= first test
+V2= Reordened and changed Unicode types for propper letter
 */
 
 
